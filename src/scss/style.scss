@@ -2,3 +2,47 @@ body {
     font-size: 20px;
     background: url('../img/Sunflower_from_Silesia2.jpg') 0 0 no-repeat;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0;
+    width: 100%;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul,
+li {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: black;
+}
+
+section {
+    padding: 80px 0;
+}
